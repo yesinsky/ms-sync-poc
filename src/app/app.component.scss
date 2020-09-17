@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  &__name {
+    font-size: larger;
+    color: lightgray;
+  }
+
+  &__status {
+    color: dimgray;
+  }
+
+  &__data {
+    height: 30vh;
+    width: 40vw;
+    overflow: scroll;
+  }
+}
+
+.button {
+  margin: 1vw;
+  height: 5vh;
+  width: 10vw;
+
+  &--login {
+    border: 1px solid lightcoral;
+  }
+
+  &--load {
+    border: 1px solid lightseagreen;
+  }
+}
