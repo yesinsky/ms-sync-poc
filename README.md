@@ -1,27 +1,14 @@
-# MsSyncPoc
+This is a sample project to test Angular SPA app and MS Graph API to retrieve contact information (phone numbers) of logged user. It has two sample buttons: 'Login' and 'Load Data'. At first, the user needs to click the 'Login' button and fill credentials from the desired Azure Active Directory tenant into the dialog box. After authorization, the user can click the 'Load data' button that will load business phone numbers of Outlook (MS Exchange Online) contacts.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
+The app uses 'msal' + '@azure/msal-angular' libs for auth and '@microsoft/microsoft-graph-client' lib for Graph interaction.
 
-## Development server
+Also it uses '@microsoft/microsoft-graph-types' types.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The app was created using 'ng generate application' bootstrapper.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Instructions to run the app:
+1. Install Angular-CLI globally.
+2. Clone the project repo at a local folder.
+3. Run 'npm install' in the project folder.
+4. Run 'ng build'.
+5. Run 'ng serve'.
